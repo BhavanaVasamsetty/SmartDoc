@@ -1,0 +1,4 @@
+include ':app_sdk'
+include ':directline-chatbot-sdk'
+include ':app'
+rootProject.name = "SmartDoc"

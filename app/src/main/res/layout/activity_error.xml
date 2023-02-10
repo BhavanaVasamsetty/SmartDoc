@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Error">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="389dp"
+        android:layout_height="162dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="@dimen/space_40dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginRight="@dimen/space_40dp"
+        android:layout_marginBottom="310dp"
+        app:cardBackgroundColor="@color/white_clr"
+        app:cardCornerRadius="@dimen/space_20dp"
+        app:cardElevation="@dimen/space_5dp">
+
+        <TextView
+            android:layout_width="347dp"
+            android:layout_height="147dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/space_20dp"
+            android:lineSpacingExtra="@dimen/space_5dp"
+            android:text="Sorry for the inconvenience at this moment doctors are not available in this app so we could not generate the prescription"
+            android:textColor="@color/black_clr"
+            android:textSize="@dimen/font_20sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/errornext"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="237dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="76dp"
+        android:text="@string/next"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Next" />
+
+
+
+</RelativeLayout>
